@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="conatainer">
+
+        <div></div>
+    <div class="form-box">
+        <h1>CURICULUM VITAE</h1><br>
+        <div>
+        <h2>Personal Data:</h2>         
+        <p id="name"><input type="text" class="name" id="details" placeholder="Enter Your Full Name" required></p>
+        <p id="address"><textarea cols="90" row="3" class="address" id="details" placeholder="Enter Your Address"required></textarea></p>
+        <p id="email"><input type="text" class="email" id="details" placeholder="Enter Your E-mail"></p>
+        <p id="phone-no"><input type="number" class="phone-no" id="details" placeholder="Enter Your Phone Number"></p><br><br>
+        
+        <h2>Objective:</h2>
+        <p id="objOutput"><textarea cols="90" row="3" class="obj" id="details" placeholder="Enter Your Address"required></textarea></p><br><br>
+
+        <h2>Education:</h2> 
+        <h3>Tertiary</h3>        
+        <span id="ter1"><input type="text" class="ter1" id="details" placeholder="Enter School Name"></span>
+        <span id="terStartYr"><input type="number" class="terStartYr" id="details" style="width:150px" placeholder="Start Year"> - </span>
+            <span id="terEndYr"><input type="number" class="terEndYr" id="details" style="width:150px" placeholder="End Year"></span><br>
+        <p id="terAddr1"><input type="text" class="terAddr1" id="details" placeholder="Enter School Address"></p>
+        <p id="terDg1"><input type="text" class="terDg1" id="details" placeholder="Degree Awarded"></p>
+        <!-- <p id="schyr1">
+            <span id="terStartYr"><input type="year" class="terStartYr" id="details" style="width:150px" placeholder="Start Year"> - </span>
+            <span id="terEndYr"><input type="year" class="terEndYr" id="details" style="width:150px" placeholder="End Year"></span>
+        </p><br><br> -->
+        <button id="btnEdu" class="addMore">Add More</button><br><br>
+    
+
+        <h3>Secondary</h3>
+        <span id="secNm">
+            <input type="text" class="secNm" id="details" placeholder="Enter School Name">
+            
+        </span>
+        <span id="secStartYr"><input type="number" class="secStartYr" id="details" style="width:150px" placeholder="Start Year"> - </span>
+            <span id="secEndYr"><input type="number" class="secEndYr" id="details" style="width:150px" placeholder="End Year"></span><br>
+        <p id="secondaryAdd"><input type="text" class="secondaryAdd" id="details" placeholder="Enter School Address"></p>
+        <p id="secDegr"><input type="text" class="secDg" id="details" placeholder="Degree Awarded"></p>
+        <!-- <p id="schyr2">
+            <span id="secStartYr"><input type="year" class="secStartYr" id="details" style="width:150px" placeholder="Start Year"> - </span>
+            <span id="secEndYr"><input type="year" class="secEndYr" id="details" style="width:150px" placeholder="End Year"></span>
+        </p><br><br> -->
+
+        <h2>Working Experience:</h2>
+        <!-- <p id=""><input type="text" class="input-text" id="details" placeholder="Organazition/Company"></p>
+        <p id="schyr1">
+            <span id="workStartYr"><input type="year" class="workStartYr" id="details" style="width:150px" placeholder="Start Year"></span>
+            <span id="workEndYr"><input type="year" class="workEndYr" id="details" style="width:150px" placeholder="End Year"></span>
+        </p>
+        <p id=""><input type="text" class="input-text" id="details" placeholder="Job Title"></p> -->
+
+        <p id="workExp"></p>
+        <p id="workSrtYr2">
+            <span id="workStartYr2"></span>
+            <span id="workEndYr"></span>
+        </p>
+        <p id=""></p><br>
+
+        <button id="btnWork" class="addMore">Add More Work Experience</button><br><br>
+        
+
+        <h2>Key Skills:</h2>
+        <p id="skil"></p>
+        <li id="key"></li>
+        <!-- <input type="text" class="" id="details" placeholder="Enter Skill">
+        <li id=""><input type="text" class="skill1" id="details" placeholder></li> --><br>
+        <button id="btnSkill" class="addMore">Add More Skills</button><br><br>
+
+
+        <!--
+        
+        <h3>Achievements and Responsibilites:</h3>
+        <input type="text" class="input-text" id="achiev1" placeholder="1)">
+        <input type="text" class="input-text" id="achiev2" placeholder="2)">
+        <input type="text" class="input-text" id="achiev3" placeholder="3)">
+        <input type="text" class="input-text" id="achiev4" placeholder="4)">
+        <input type="text" class="input-text" id="achiev5" placeholder="5)">
+        -->
+
+
+        <h2>Professional Certificate:</h2>
+        <p id="sch1"><!--<input type="text" class="sch1" id="details" placeholder="Orgnazition Name">--></p>
+        <p id="schAddr"><!--<input type="text" class="schAddr" id="details" placeholder="Enter Address">--></p>
+        <p id="degr1"><!--<input type="text" class="dg1" id="details" placeholder="Title">--></p>
+        <p id="certYr"><!--<input type="year" class="certYr" id="details" style="width:150px" placeholder="Start Year">--></p><br>
+        <button id="btnCert" class="addMore">Add More Certificate</button><br><br>
+
+
+        <h2>Summary:</h2>
+        <p id="summary"><textarea cols="90" row="3" class="summary" id="details" placeholder="Enter Your Address"required></textarea></p><br><br>
+        
+        <!-- <h3>Hobbies & Interest</h3>         
+        <input type="text" class="input-text" id="hobbies1" placeholder="1)">
+        <input type="text" class="input-text" id="hobbies2" placeholder="2)">
+        <input type="text" class="input-text" id="hobbies3" placeholder="3)"> -->
+        
+
+    <div class="btn-box">
+        <button class="btnGenerate">Generate CV</button>
+        <button class="btnDownload">Download/Print</button>
+    </div>
+
+    </div>
+
+
+    </div>
+
+    
+
+    <script src="js/cv.js"></script>
+</body>
+</html>
